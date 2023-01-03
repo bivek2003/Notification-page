@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap'); 
+    </style>
+    <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h3 id="left-side">Notifications <span id="number">3</span></h3>
+            <h4 id="right-side">Mark all as read</h4>
+        </header>
+        <div id="changes">  
+        <div class="change" id="first">
+            <div class="avatar"><img src="./avatar-mark-webber.webp" alt="avatar">
+            </div>
+            <div class="letter">
+                <p><span class="firstname">Mark Webber</span>
+                reacted to your recent post <span class="maintag">
+                My first tournament today! 
+                </span>
+                <span class="dot" id="dot1"></span>
+                </p>
+                <span class="time">1m ago</span>
+            </div>
+        </div>
+        <div class="change" id="second">
+            <div class="avatar"><img src="./avatar-angela-gray.webp" alt="avatar">
+            </div>
+            <div class="letter">
+                <p><span class="firstname">Angela Gray</span> followed you
+                <span class="dot" id="dot2"></span>
+                </p>
+                <span class="time">5m ago</span>
+            </div>
+        </div>
+        <div class="change" id="third">
+            <div class="avatar"><img src="./avatar-jacob-thompson.webp" alt="avatar">
+            </div>
+            <div class="letter">
+                <p><span class="firstname">Jacob Thompson</span>
+                has joined your group <span class="chessclub">
+                    Chess Club
+                </span>
+                <span class="dot" id="dot3"></span>
+                </p>
+                <span class="time">1 day ago</span>
+            </div>
+        </div>
+    </div>
+    <div id="notchanges">
+        <div class="notchange">
+            <div class="avatar"><img src="./avatar-rizky-hasanuddin.webp" alt="avatar">
+            </div>
+            <div class="letter">
+                <p><span class="firstname">Rizky Hasanuddin</span>
+                    sent you a private message 
+                </p>
+                <span class="time">5 days ago</span>
+                <p id="box">
+                    Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                    I'm already having lots of fun and improving my game.
+                </p>
+            </div>
+        </div>
+        <div class="notchange">
+            <div class="avatar"><img src="./avatar-kimberly-smith.webp" alt="avatar">
+            </div>
+            <div id="extra"><img src="./image-chess.webp" alt=""></div>
+            <div class="letter" id="extra1">
+                <span id="lst"><span class="firstname">Kimberly Smith</span>
+                    commented on your picture 
+                </span>
+                <span class="time">1 week ago</span>
+            </div>
+        </div>
+        <div class="notchange">
+            <div class="avatar"><img src="./avatar-nathan-peterson.webp" alt="avatar">
+            </div>
+            <div class="letter">
+                <p><span class="firstname">Nathan Peterson</span>
+                reacted to your recent post <span class="maintag">
+                    5 end-game strategies to increase your win rate 
+                </span>
+                </p>
+                <span class="time">2 weeks ago</span>
+            </div>
+        </div>
+        <div class="notchange">
+            <div class="avatar"><img src="./avatar-anna-kim.webp" alt="avatar">
+            </div>
+            <div class="letter">
+                <p><span class="firstname">Anna Kim</span>
+                    left the group <span class="chessclub">
+                    Chess Club
+                </span>
+                </p>
+                <span class="time">2 weeks ago</span>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
